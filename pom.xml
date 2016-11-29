@@ -92,6 +92,15 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- uber jar -->
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>uber-jar</artifactId>
+                <version>6.2.0</version>
+                <classifier>apis</classifier>
+            </dependency>
+
+            <!-- additional dependencies provided by AEM container but not supplied by uber jar -->
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>servlet-api</artifactId>
@@ -186,6 +195,11 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
                 <version>4.3.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.jackrabbit.vault</groupId>
+                <artifactId>org.apache.jackrabbit.vault</artifactId>
+                <version>3.1.27-R1727227</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
