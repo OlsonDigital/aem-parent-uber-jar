@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
     <name>AEM Parent Uber Jar POM</name>
     <description>
-        Maven parent POM for AEM (Adobe CQ) projects that defines a dependency management section containing
+        Maven parent POM for AEM projects that defines a dependency management section containing
         all of the available dependencies that are provided by the OSGi container.
     </description>
 
@@ -42,6 +42,13 @@
         <url>https://github.com/OlsonDigital/aem-parent-uber-jar</url>
         <developerConnection>scm:git:git@github.com:OlsonDigital/aem-parent-uber-jar.git</developerConnection>
     </scm>
+
+    <repositories>
+        <repository>
+            <id>adobe-public-releases</id>
+            <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <snapshotRepository>
