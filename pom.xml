@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.icfolson.aem</groupId>
     <artifactId>aem-parent-uber-jar</artifactId>
-    <version>6.2.0-SNAPSHOT</version>
+    <version>6.2.0-SP1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>AEM Parent Uber Jar POM</name>
     <description>
@@ -42,13 +42,6 @@
         <url>https://github.com/OlsonDigital/aem-parent-uber-jar</url>
         <developerConnection>scm:git:git@github.com:OlsonDigital/aem-parent-uber-jar.git</developerConnection>
     </scm>
-
-    <repositories>
-        <repository>
-            <id>citytech-public</id>
-            <url>http://nexus.citytech.ctmsp.com/content/groups/public</url>
-        </repository>
-    </repositories>
 
     <distributionManagement>
         <snapshotRepository>
@@ -96,7 +89,7 @@
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>6.2.0</version>
+                <version>6.2.0-SP1</version>
                 <classifier>apis</classifier>
             </dependency>
 
@@ -164,12 +157,7 @@
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
-                <version>1.3.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-imaging</artifactId>
-                <version>1.0-R1725432-B002</version>
+                <version>1.3.2</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
@@ -189,17 +177,17 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>4.3.4</version>
+                <version>4.5.2</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
-                <version>4.3.2</version>
+                <version>4.4.5</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit.vault</groupId>
                 <artifactId>org.apache.jackrabbit.vault</artifactId>
-                <version>3.1.27-R1727227</version>
+                <version>3.1.38</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
