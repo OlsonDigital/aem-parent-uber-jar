@@ -1,4 +1,4 @@
-# AEM Parent POM (Uber JAR)
+# AEM Parent Uber Jar POM
 
 [Olson Digital](http://www.digitalatolson.com/)
 
