@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.icfolson.aem</groupId>
     <artifactId>aem-parent-uber-jar</artifactId>
-    <version>6.3.2-SNAPSHOT</version>
+    <version>6.4.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>AEM Parent Uber Jar POM</name>
     <description>
@@ -17,13 +17,6 @@
         <name>Olson Digital</name>
         <url>http://www.digitalatolson.com</url>
     </organization>
-
-    <developers>
-        <developer>
-            <name>Mark Daugherty</name>
-            <email>mark.daugherty@icfolson.com</email>
-        </developer>
-    </developers>
 
     <licenses>
         <license>
@@ -96,7 +89,7 @@
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>6.3.1.2</version>
+                <version>6.4.0</version>
                 <classifier>apis</classifier>
             </dependency>
 
@@ -104,12 +97,12 @@
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>servlet-api</artifactId>
-                <version>2.4</version>
+                <version>2.6</version>
             </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>jsp-api</artifactId>
-                <version>2.0</version>
+                <version>2.1</version>
             </dependency>
             <dependency>
                 <groupId>javax.inject</groupId>
@@ -119,7 +112,7 @@
             <dependency>
                 <groupId>javax.mail</groupId>
                 <artifactId>mail</artifactId>
-                <version>1.5.0-b01</version>
+                <version>1.5.0</version>
             </dependency>
             <dependency>
                 <groupId>javax.jcr</groupId>
@@ -154,7 +147,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
-                <version>1.13</version>
+                <version>1.15</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -164,7 +157,7 @@
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
-                <version>1.3.2</version>
+                <version>1.3.3</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
@@ -174,12 +167,12 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-imaging</artifactId>
-                <version>1.0-R1534292</version>
+                <version>1.0.0.R1725432-B002</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
-                <version>3.5</version>
+                <version>3.6</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -189,57 +182,57 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>4.5.2</version>
+                <version>4.5.4</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpcore</artifactId>
-                <version>4.4.5</version>
+                <version>4.4.8</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit.vault</groupId>
                 <artifactId>org.apache.jackrabbit.vault</artifactId>
-                <version>3.1.38</version>
+                <version>3.1.44</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>jackrabbit-api</artifactId>
-                <version>2.14.3</version>
+                <version>2.16.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>jackrabbit-data</artifactId>
-                <version>2.14.3</version>
+                <version>2.16.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>jackrabbit-jcr-commons</artifactId>
-                <version>2.14.3</version>
+                <version>2.16.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>jackrabbit-jcr-rmi</artifactId>
-                <version>2.14.3</version>
+                <version>2.16.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>jackrabbit-spi</artifactId>
-                <version>2.14.3</version>
+                <version>2.16.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>jackrabbit-spi-commons</artifactId>
-                <version>2.14.3</version>
+                <version>2.16.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>jackrabbit-webdav</artifactId>
-                <version>2.14.3</version>
+                <version>2.16.0</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>1.7.21</version>
+                <version>1.7.25</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
