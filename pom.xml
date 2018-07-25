@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     <name>AEM Parent Uber Jar POM</name>
     <description>
-        Maven parent POM for AEM projects that defines a dependency management section containing
+        Maven parent POM for Adobe Experience Manager projects that defines a dependency management section containing
         all of the available dependencies that are provided by the OSGi container.
     </description>
 
