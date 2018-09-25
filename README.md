@@ -8,6 +8,22 @@ Maven parent POM for AEM projects that defines a dependency management section c
 
 AEM projects that define this project as the parent will only need to specify a &lt;dependencies&gt; section containing the subset of dependencies in use and may omit the version and scope definitions.
 
+## Compatibility
+
+AEM Parent POM Version(s) | AEM Version
+------------ | -------------
+6.4.1.1 | 6.4.1
+6.4.1 | 6.4.0
+6.4.0 | 6.4.0
+6.3.2.2 | 6.3.2.2
+6.3.2 | 6.3.2
+6.3.1.2.1 | 6.3.1.2
+6.3.1.2 | 6.3.1.2
+6.3.1.1 | 6.3.1.1
+6.3.0 | 6.3.0
+6.2.0-SP1 | 6.2.1
+6.2.0 | 6.2.0
+
 ## Versioning
 
 Follows [Semantic Versioning](http://semver.org/) guidelines.
