@@ -1,6 +1,6 @@
 # AEM Parent Uber Jar POM
 
-[Olson Digital](http://www.digitalatolson.com/)
+[ICF Next](http://www.icfnext.com/)
 
 ## Overview
 
