@@ -12,6 +12,7 @@ AEM projects that define this project as the parent will only need to specify a 
 
 AEM Parent POM Version(s) | AEM Version
 ------------ | -------------
+7.0.0 | 6.3.3, 6.4
 6.4.2 | 6.4.2
 6.4.1.1 | 6.4.1
 6.4.1 | 6.4.0
