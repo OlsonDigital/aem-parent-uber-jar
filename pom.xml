@@ -210,6 +210,18 @@
                 <version>2.2</version>
                 <scope>provided</scope>
             </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>4.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-imaging</artifactId>
+                <version>1.0-R1534292</version>
+                <scope>provided</scope>
+            </dependency>
 
             <!-- HTTP client -->
             <dependency>
