@@ -1,6 +1,6 @@
 # AEM Parent Uber Jar POM
 
-[Olson Digital](http://www.digitalatolson.com/)
+[ICF Next](http://www.icfnext.com/)
 
 ## Overview
 
@@ -10,9 +10,9 @@ AEM projects that define this project as the parent will only need to specify a 
 
 ## Compatibility
 
-AEM Parent POM Version(s) | AEM Version
+AEM Parent POM Version(s) | AEM Version(s)
 ------------ | -------------
-7.0.0 | 6.3.3, 6.4
+7.0.0 | 6.3, 6.4, 6.5
 6.4.2 | 6.4.2
 6.4.1.1 | 6.4.1
 6.4.1 | 6.4.0
